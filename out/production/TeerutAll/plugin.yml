@@ -1,0 +1,13 @@
+name: TeerutAll
+version: 0.1
+main: com.teerut.TeerutAll.Main
+commands:
+  lct:
+    description: get location of player
+    aliases: [ lct, LCT, Lct ]
+  rm:
+    description: Remove item in Inventory
+    aliases: [ RM, rm, Rm ]
+#  nvg:
+#    description: Remove item in Inventory
+#    aliases: [ nvg, NVG, Nvg ]

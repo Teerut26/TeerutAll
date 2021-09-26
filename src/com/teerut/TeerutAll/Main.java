@@ -1,5 +1,6 @@
 package com.teerut.TeerutAll;
 
+import com.teerut.TeerutAll.ConcreteWater.ConcreteWaterEvent;
 import com.teerut.TeerutAll.GetPlayerLocation.GetPlayerLocation;
 import com.teerut.TeerutAll.LineNavigator.LineNavigator;
 import com.teerut.TeerutAll.RemoveItem.RemoveItem;
@@ -13,7 +14,8 @@ import org.bukkit.plugin.java.JavaPlugin;
 public class Main extends JavaPlugin {
     @Override
     public void onEnable() {
-        getServer().getPluginManager().registerEvents(new Events(),this);
+//        getServer().getPluginManager().registerEvents(new Events(),this);
+        getServer().getPluginManager().registerEvents(new ConcreteWaterEvent(), this);
         System.out.println(ChatColor.AQUA + "[TeerutAll] : onEnable");
         super.onEnable();
     }

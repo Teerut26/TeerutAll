@@ -1,14 +1,9 @@
 package com.teerut.TeerutAll.LineNavigator;
 
 import org.bukkit.Bukkit;
-import org.bukkit.ChatColor;
 import org.bukkit.Location;
 import org.bukkit.Particle;
 import org.bukkit.entity.Player;
-import org.bukkit.potion.PotionEffect;
-import org.bukkit.potion.PotionEffectType;
-
-import java.util.ArrayList;
 
 public class LineNavigator {
     public LineNavigator(Player player, String[] args) {

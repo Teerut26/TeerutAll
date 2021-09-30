@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="JDA-development">
+    <CLASSES />
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$USER_HOME$/Downloads/JDA-development" />
+      <root url="file://$USER_HOME$/Downloads/JDA-development/src/examples/java" />
+      <root url="file://$USER_HOME$/Downloads/JDA-development/src/main/java" />
+      <root url="file://$USER_HOME$/Downloads/JDA-development/src/test/java" />
+    </SOURCES>
+  </library>
+</component>

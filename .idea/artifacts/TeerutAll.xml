@@ -1,6 +1,6 @@
 <component name="ArtifactManager">
   <artifact type="jar" name="TeerutAll">
-    <output-path>$USER_HOME$/Downloads/Minecraft Server/plugins</output-path>
+    <output-path>$PROJECT_DIR$/../../docker/mc_test/minecraft-data/plugins</output-path>
     <root id="archive" name="TeerutAll.jar">
       <element id="module-output" name="TeerutAll" />
     </root>
